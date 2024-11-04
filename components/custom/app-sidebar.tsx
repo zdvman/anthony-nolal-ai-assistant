@@ -57,7 +57,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
         </SidebarGroup>
       </SidebarContent>
       <SidebarFooter className="gap-0">
-        {/* <SidebarGroup>
+        <SidebarGroup>
           <SidebarGroupContent>
             <Card className="p-4 flex flex-col gap-4 relative rounded-lg shadow-none border-none">
               <a
@@ -83,7 +83,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               </CardFooter>
             </Card>
           </SidebarGroupContent>
-        </SidebarGroup> */}
+        </SidebarGroup>
         {user && (
           <SidebarGroup>
             <SidebarGroupContent>
